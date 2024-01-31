@@ -1,0 +1,42 @@
+Playwright Installation 
+npm init playwright@latest
+npm install 
+npm start
+
+Test Structure 
+
+
+Asynchronus & Synchrou func
+
+
+Running Test
+npx playwright tests - healess 
+npm playwright test sampletest.dpec.ts
+
+
+npx playwright show-report 
+npm playwright test --project=chromium
+
+
+
+test.describe.skip
+test.describe.only
+
+
+beforeeach - executed everytime 
+beforeall - executed once
+
+
+DOM 
+Locator Syntax
+
+
+
+Best Practices 
+Make tests as isolated as possible 
+
+global timeout - globally 
+test timeout - 30sec default 
+action timeout 
+
+
